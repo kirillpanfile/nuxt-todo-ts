@@ -2,6 +2,8 @@
 definePageMeta({
     layout: 'default'
 });
+
+useFetch('/api/');
 </script>
 
 <template>
