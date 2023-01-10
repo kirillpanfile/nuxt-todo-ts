@@ -3,7 +3,10 @@ definePageMeta({
     layout: 'default'
 });
 
-useFetch('/api/');
+useHead({
+    title: 'A Vue blog - Home Page',
+    meta: [{ name: 'description', content: 'Home page' }]
+});
 </script>
 
 <template>

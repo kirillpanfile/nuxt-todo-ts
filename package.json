@@ -8,12 +8,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@kevinmarrec/nuxt-pwa": "^0.14.1",
     "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "@nuxtjs/tailwindcss": "^6.2.0",
     "nuxt": "3.0.0"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.6",
+    "mongoose": "^6.8.3",
     "nuxt-icon": "^0.1.8",
     "path": "^0.12.7",
     "pinia": "^2.0.28"
