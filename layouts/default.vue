@@ -2,10 +2,6 @@
 const TheHeader = defineAsyncComponent(async function () {
     return await import('~/components/header/TheHeader.vue');
 });
-
-const TheFooter = defineAsyncComponent(async function () {
-    return await import('~/components/footer/TheFooter.vue');
-});
 </script>
 
 <template>
@@ -13,7 +9,7 @@ const TheFooter = defineAsyncComponent(async function () {
         <TheHeader />
         <slot></slot>
 
-        <TheFooter />
+        <!-- <TheFooter /> -->
     </main>
 </template>
 
