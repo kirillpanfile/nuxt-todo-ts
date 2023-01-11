@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const TheHeader = defineAsyncComponent(() => import('~/components/header/TheHeader.vue'));
+const TheHeader = defineAsyncComponent(() => import('@/components/header/TheHeader.vue'));
 </script>
 
 <template>
