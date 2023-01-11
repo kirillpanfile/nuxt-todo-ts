@@ -1,12 +1,10 @@
 <script setup lang="ts">
-// const TheHeader = defineAsyncComponent(async function () {
-//     return await import('~/components/header/TheHeader.vue');
-// });
+const TheHeader = defineAsyncComponent(() => import('~/components/header/TheHeader.vue'));
 </script>
 
 <template>
     <main class="flex flex-col min-h-screen">
-        <headerTheHeader />
+        <TheHeader />
         <slot></slot>
 
         <!-- <TheFooter /> -->
