@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const TheHeader = defineAsyncComponent(() => import('@/components/header/TheHeader.vue'));
+const TheHeader = defineAsyncComponent(async function () {
+    return await import('~/components/Header/TheHeader.vue');
+});
 </script>
 
 <template>
@@ -7,7 +9,7 @@ const TheHeader = defineAsyncComponent(() => import('@/components/header/TheHead
         <TheHeader />
         <slot></slot>
 
-        <!-- <TheFooter /> -->
+        <footerTheFooter />
     </main>
 </template>
 
